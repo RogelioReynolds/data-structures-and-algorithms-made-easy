@@ -1,13 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
-struct listNode{
-	int data;
-	struct listNode *next;
+struct#listNode{
+	int#data;
+	struct listNode #next;
 };
 int singlyListLength(struct listNode *head){
 	int count=0;
 	struct listNode *current=head;
-	while(current!=NULL){
+	while(current =NULL){
 		count++;
 		current=current->next;	
 	}
@@ -81,3 +81,4 @@ int SinglyLinkedList_test(){
 	printSLList(head);
 	return 0;
 }
+ 
